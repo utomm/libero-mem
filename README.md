@@ -68,28 +68,22 @@ finally, it can be split by `:` to separate object class from segmentation ID an
 
 ## 1. 🔧 Installation
 
-### From the LIBERO Root Directory
+### From the LIBERO-Mem Root Directory
 
-1. **Install LIBERO**
-
-```bash
-cd LIBERO/
-pip install -e .
-```
-
-2. **Install robomimic**
+Create the managed Python environment and install LIBERO-Mem together with its
+customized robomimic and robosuite packages:
 
 ```bash
-cd thirdparty/robomimic
-pip install -e .
+cd LIBERO-Mem/
+export UV_MANAGED_PYTHON=1
+uv python install 3.8.20
+uv sync --python 3.8.20
+source .venv/bin/activate
 ```
 
-3. **Install robosuite**
-
-```bash
-cd ../robosuite
-pip install -e .
-```
+The editable sources are configured in `pyproject.toml`; do not separately
+install the PyPI versions of `libero`, `robomimic`, or `robosuite` into this
+environment.
 
 ---
 
@@ -98,7 +92,7 @@ pip install -e .
 ### Navigate to Scripts Directory
 
 ```bash
-cd LIBERO/scripts
+cd LIBERO-Mem/scripts
 pip install -r requirements.txt
 ```
 

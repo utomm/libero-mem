@@ -1,0 +1,19 @@
+{
+  "benchmark": "libero-mem",
+  "branch": "amam-eval",
+  "source_sha256": {
+    ".gitignore": "92d143a69047bd0c8701cde8895e82dbf90c391c47c816cbc142f8932a92509e",
+    "README.md": "396c89e6d11da324b1b2e4c05b1c284c9a44e89b0e0322a08f89389750fbaf53",
+    "libero/libero/__init__.py": "102977c61263c00d5adb08663615d68d9356c560dad6ffe4dd4c2a0675620131",
+    "libero/libero/benchmark/__init__.py": "ac4a072121434e2605ac90e5bcd7c11aaada5d5710e0bfeb7c993e24792c534d",
+    "libero/libero/envs/bddl_base_domain.py": "ac1bc784be3fe19436f47556f44eaedfe09d3bcb00073542c6723d881705fd5a",
+    "main.py": "8c40d32a17a5965242b6928c2a565ac0d58c7ee74d07fd13598bdbb949391a6a",
+    "openpi-client/pyproject.toml": "69aca9c1720a7a399f6fd708f01ca55e17dcfdbb1adb4f55d81f50c91b6d55b7",
+    "openpi-client/src/openpi_client/__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+    "openpi-client/src/openpi_client/base_policy.py": "6c31858e8d854d4def445c0478e5ac7d1ef80228e781b99e7ca7464480f85a6d",
+    "openpi-client/src/openpi_client/msgpack_numpy.py": "c301b75b47caaeddc91a7bcc5a6d5f7b81da3b670312f139f5bc70cfd8e2517d",
+    "openpi-client/src/openpi_client/websocket_client_policy.py": "a3f1d017d7394c8d4bd1ce3efb7ce9ae6d3f295123dc59098319008d687f6a89",
+    "pyproject.toml": "162b71e87adce12fda5d63feb2b133227127bc0ea850fd4bbe8a607fd856eee1",
+    "uv.lock": "320a172d36f1374f797544b597a7d7033befba3a9eae87f2e3abc322a22f46cd"
+  }
+}

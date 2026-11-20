@@ -2,6 +2,7 @@ import abc
 import os
 import glob
 import random
+import re
 import torch
 
 from typing import List, NamedTuple, Type
@@ -70,6 +71,8 @@ for libero_suite in libero_suites:
 
     for task in libero_task_map[libero_suite]:
         language = grab_language_from_filename(task + ".bddl")
+        if libero_suite == "libero_mem":
+            language = re.sub(r"^\d+\s+", "", language)
         task_maps[libero_suite][task] = Task(
             name=task,
             language=language,

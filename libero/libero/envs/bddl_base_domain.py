@@ -262,6 +262,7 @@ class BDDLBaseDomain(SingleArmEnv):
         self._satisfied_subgoals = []
         self._sub_goal_live_time = 0
         self._sub_goal_nonlive_time = 0
+        self._overshot = False
 
 
     def is_subgoal_trajectory_possible(self, current_traj, testing_traj):
